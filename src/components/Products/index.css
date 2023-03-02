@@ -1,0 +1,59 @@
+
+.products-main-bg{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+   width: 100vw;
+   background-color: #f8f9fa;
+}
+
+.Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url('https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.banner-heading{
+    color: #f8f7ff;
+    font-weight: 700;
+    font-family: Bree serif;
+}
+span{
+    color: #003f88;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.products-list-contaner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .products-list-contaner{
+        padding: 30px;
+    }
+    
+}
+
+.failure-view{
+    position: absolute;
+    top: 50vh;
+    left: 30vw;
+}
+.products-loader-container{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}

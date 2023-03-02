@@ -1,0 +1,48 @@
+
+.navbar-main-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f8f9fa ;
+
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+}
+
+.lg{
+    display: none;
+}
+.sm{
+    display: flex;
+}
+.website-logo{
+    font-size: 20px;
+  }
+
+
+@media screen and (min-width: 768px){
+    .website-logo{
+      font-size: 30px;
+      color: #22333b;
+    }
+
+    .lg{
+        display: flex;
+    }
+    .sm{
+        display: none;
+    }
+
+}
